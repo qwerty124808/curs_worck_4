@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "package-curs-worck-4"
+version = "0.1.0"
+description = ""
+authors = ["altarev_da <altarev_da@nlmk.com>"]
+readme = "README.md"
+packages = [{include = "package_curs_worck_4"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
