@@ -1,6 +1,9 @@
-from src.abstract_api import AbstractApi
-from src.hh_api import HeadHunterAPI
-from src.vacancy import Vacancy
+from src.json_manager import JsonManager
+from src.user_interaction import user_interaction
+from src.modul import *
 
-hh_vacancies =HeadHunterAPI.get_vacancies(key_word)
-print(hh_vacancies)
+def main():
+    user_interaction()
+
+if __name__ == "__main__":
+    main()

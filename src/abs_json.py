@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
-class AbstractApi(ABC):
+class AbsJson(ABC):
 
     @abstractmethod
-    def get_vacancies(self):
+    def add_vacancy(self):
         pass
